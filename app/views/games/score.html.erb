@@ -1,0 +1,10 @@
+<h1>Results</h1>
+<%= @word.split('') %>
+<%= @score %>
+<% @letters.each do |letter| %>
+<%= letter %>
+<% end  %>
+<%= @json %>
+
+<%= link_to "Try again", new_path %>
+

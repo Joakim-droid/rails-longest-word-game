@@ -16,4 +16,21 @@ input[type="submit"] {
   border: none;
   color: #fff;
   border-radius: 4px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+ul {
+  padding-left: 0;
+}
+.list-item {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  background-color: #3086DD;
+  color: #fff;
+  line-height: 30px;
+  font-weight: bolder;
 }
